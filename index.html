@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TCL Smart TV</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="modeButton">Toggle Light/Dark Mode</button>
+    <header>
+        <h1>TCL Smart TV</h1>
+        <p id="status">Checking status...</p>
+        <p>Entertainment for Every Home</p>
+    </header>
+
+
+    <nav>
+
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#specifications">Specifications</a>
+        <a href="#order">Order</a>
+
+    </nav>
+
+
+    <main id="home">
+
+        <section class="product">
+
+            <div>
+
+                <h2>TCL 55 Inch Smart TV</h2>
+
+                <p>
+                    Enjoy movies, sports and entertainment with
+                    the TCL 55 Inch Smart TV
+                </p>
+
+                <h3>Price: Rs. 149,999</h3>
+
+                <a class="button" href="#order">
+                    Buy Now
+                </a>
+
+            </div>
+
+
+            <div>
+
+                <img src="C:\Users\Hp\OneDrive\Pictures\Saved Pictures\tcl"
+                     alt="TCL Smart TV">
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+        <section id="features">
+
+            <h2>Key Features</h2>
+
+            <div class="cards">
+                <article class="card">
+
+                    <h3>4K Display</h3>
+                    <p>
+                        Enjoy clear and detailed pictures with
+                        a 4K Ultra HD display.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Smart TV</h3>
+                    <p>
+                        Watch online videos and access your
+                        favorite streaming apps.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Powerful Sound</h3>
+                    <p>Enjoy your movies and shows with clear
+                        and immersive sound.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- WHY CHOOSE TCL -->
+        <section>
+            <h2>Why Choose TCL TV?</h2>
+            <ol type="A">
+                <li>High quality 4K display</li>
+                <li>Smart entertainment features</li>
+                <li>Modern design</li>
+                <li>Large screen for family entertainment</li>
+            </ol>
+        </section>
+
+        <!-- PRODUCT FILTER -->
+        <section id="products">
+
+            <h2>TCL Products</h2>
+            <button id="allBtn">All</button>
+            <button id="tvBtn">TVs</button>
+            <button id="accessoryBtn">Accessories</button>
+
+            <div class="product-item tv">
+                <h3>TCL 55 Inch Smart TV</h3>
+                <p>Rs. 149,999</p>
+            </div>
+
+            <div class="product-item tv">
+                <h3>TCL 65 Inch 4K TV</h3>
+                <p>Rs. 199,999</p>
+            </div>
+
+            <div class="product-item accessory">
+                <h3>TCL Soundbar</h3>
+                <p>Rs. 8,000</p>
+            </div>
+
+
+            <div class="product-item accessory">
+                <h3>TCL Wall Mount</h3>
+                <p>Rs. 5,000</p>
+            </div>
+        </section>
+
+        <!-- SPECIFICATIONS -->
+        <section id="specifications">
+
+            <h2>TV Specifications</h2>
+            <table>
+
+                <tr>
+                    <th>Specification</th>
+                    <th>Details</th>
+                </tr>
+
+                <tr>
+                    <td>Brand</td>
+                    <td>TCL</td>
+                </tr>
+
+                <tr>
+                    <td>Screen Size</td>
+                    <td>55 Inches</td>
+                </tr>
+
+                <tr>
+                    <td>Resolution</td>
+                    <td>4K Ultra HD</td>
+                </tr>
+
+                <tr>
+                    <td>Type</td>
+                    <td>Smart TV</td>
+                </tr>
+
+                <tr>
+                    <td>Price</td>
+                    <td>Rs. 149,999</td>
+                </tr>
+            </table>
+
+            <!-- OPTIONAL ACCESSORIES -->
+            <h2>Optional Accessories</h2>
+
+            <label>
+                <input type="checkbox"
+                       class="accessory"
+                       value="5000">
+                TCL Wall Mount - Rs. 5,000
+            </label>
+
+            <br>
+
+            <label>
+
+                <input type="checkbox"
+                       class="accessory"
+                       value="8000">
+
+                TCL Soundbar - Rs. 8,000
+
+            </label>
+
+            <br>
+
+            <label>
+                <input type="checkbox"
+                       class="accessory"
+                       value="3000">
+                TCL Remote - Rs. 3,000
+            </label>
+
+
+            <p id="total">
+                Total: Rs. 0
+            </p>
+
+        </section>
+
+
+        <!-- SPECIAL OFFER -->
+
+        <aside>
+            <h3>Special Offer</h3>
+            <p>Get free delivery with your TCL Smart TV order this month.</p>
+            <a href="#order">Order Now</a>
+        </aside>
+
+        <!-- ORDER FORM -->
+        <section id="order">
+            <h2>Order Your TCL TV</h2>
+            <form id="orderForm">
+                <!-- NAME -->
+                <label for="name">
+                    Your Name:
+                </label>
+
+                <input type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Enter your name">
+
+                <br><br>
+
+                <!-- EMAIL -->
+                <label for="email">Email:</label>
+
+                <input type="email"
+                       id="email"
+                       name="email"
+                       placeholder="Enter your email">
+
+                <br><br>
+
+
+                <!-- BIRTH YEAR -->
+                <label for="birth-year">Birth Year:</label>
+
+                <input type="text"
+                       id="birth-year"
+                       name="birth-year"
+                       placeholder="e.g. 2002">
+
+                <br><br>
+
+
+                <!-- ADDRESS -->
+
+                <label for="address">
+                    Address:
+                </label>
+
+                <input type="text"
+                       id="address"
+                       name="address"
+                       placeholder="Enter your address">
+                <br><br>
+
+                <!-- PAYMENT -->
+                <h3>Payment Method</h3>
+
+                <input type="radio"
+                       id="cash"
+                       name="payment">
+
+                <label for="cash">
+                    Cash on Delivery
+                </label>
+
+                <br>
+
+                <input type="radio"
+                       id="card"
+                       name="payment">
+
+                <label for="card">Credit/Debit Card</label>
+
+                <!-- EXTRA SERVICES -->
+                <h3>Extra Services</h3>
+
+                <input type="checkbox"
+                       id="installation"
+                       name="installation">
+
+                <label for="installation">
+                    TV Installation
+                </label>
+
+                <br>
+
+
+                <input type="checkbox"
+                       id="wall"
+                       name="wall">
+
+                <label for="wall">
+                    Wall Mounting
+                </label>
+
+                <br><br>
+                <!-- SPECIAL ORDER INSTRUCTIONS -->
+
+                <label for="special-notes">
+                    Special Order Instructions:
+                </label>
+
+                <br>
+
+                <textarea id="special-notes"
+                          maxlength="100"
+                          rows="4"
+                          cols="40"
+                          placeholder="Enter any special instructions..."></textarea>
+
+
+                <!-- CHARACTER COUNT -->
+
+                <p id="char-count">
+                    100 characters remaining
+                </p>
+
+
+                <br>
+
+
+                <!-- SUBMIT BUTTON -->
+
+                <button type="submit">
+                    Place Order
+                </button>
+
+
+                <p id="message"></p>
+                <p id="discount-message"></p>
+
+            </form>
+
+        </section>
+
+
+        <!-- ABOUT TCL -->
+
+        <section id="about">
+
+            <h2>About TCL</h2>
+            <p>TCL is a leading consumer electronics brand known
+                for producing innovative televisions and smart
+                home products.
+
+            </p>
+
+
+            <p id="extraText">TCL offers a wide range of smart TVs with features
+                such as 4K Ultra HD resolution, Google TV, advanced
+                display technology, high refresh rates, and smart
+                connectivity. The company focuses on providing
+                modern entertainment technology to users around
+                the world.</p>
+
+            <button id="readMoreBtn">Read More</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>2026 TCL Smart TV Product Page</p>
+
+        <p>Contact: 0300-1234567</p>
+
+        <a href="#home">Back to Top</a>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

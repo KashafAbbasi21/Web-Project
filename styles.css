@@ -1,0 +1,314 @@
+
+body {
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+
+body.dark-mode .product,
+body.dark-mode .card,
+body.dark-mode .product-item,
+body.dark-mode aside,
+body.dark-mode form,
+body.dark-mode table {
+    background-color: #242424;
+    color: #f1f1f1;
+}
+
+
+body.dark-mode th {
+    background-color: #383838;
+    color: #ffffff;
+}
+
+body.dark-mode td,
+body.dark-mode th {
+    border-color: #666666;
+}
+
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #666666;
+}
+
+
+body.dark-mode button {
+    background-color: #eeeeee;
+    color: #121212;
+}
+
+
+body.dark-mode header,
+body.dark-mode nav,
+body.dark-mode footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.dark-mode nav a,
+body.dark-mode footer a {
+    color: #ffffff;
+}
+
+
+body.dark-mode #extraText {
+    color: #f1f1f1;
+}
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    background-color: #f2f2f2;
+
+    color: #333;
+
+}
+
+
+/* Header */
+
+header {
+
+    background-color: #222;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+}
+
+
+/* Navigation */
+
+nav {
+
+    background-color: #444;
+
+    text-align: center;
+
+    padding: 15px;
+
+}
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 15px;
+
+}
+
+
+/* Main */
+
+main {
+
+    width: 90%;
+
+    margin: auto;
+
+}
+
+
+/* Product */
+
+.product {
+
+    background-color: white;
+
+    margin: 25px 0;
+
+    padding: 30px;
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+}
+
+
+.product img {
+
+    width: 350px;
+
+    max-width: 100%;
+
+}
+
+
+/* Button */
+
+.button {
+
+    background-color: #222;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    text-decoration: none;
+
+}
+
+
+/* Features */
+
+#features {
+
+    text-align: center;
+
+    margin: 30px 0;
+
+}
+
+
+.cards {
+
+    display: flex;
+
+    gap: 20px;
+
+}
+#extraText {
+    display: none;
+}
+
+.card {
+
+    background-color: white;
+
+    padding: 20px;
+
+    flex: 1;
+
+    border: 1px solid #ddd;
+
+}
+
+
+/* Sections */
+
+section {
+
+    margin: 30px 0;
+
+}
+
+
+/* Table */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background-color: white;
+
+}
+
+
+th,
+td {
+
+    border: 1px solid #999;
+
+    padding: 12px;
+
+    text-align: left;
+
+}
+
+
+th {
+
+    background-color: #ddd;
+
+}
+
+
+/* Aside */
+
+aside {
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin: 30px 0;
+
+}
+
+
+/* Form */
+
+form {
+
+    background-color: white;
+
+    padding: 25px;
+
+}
+
+
+input {
+
+    padding: 8px;
+
+}
+
+
+/* Button */
+
+button {
+
+    background-color: #222;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    background-color: #222;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+
+footer a {
+
+    color: white;
+
+}
